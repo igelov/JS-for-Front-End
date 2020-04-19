@@ -4,5 +4,5 @@ function extractText() {
     for (let node of itemNodes) {
         textarea.value += node.textContent + "\n";
     }
-    
+
 }
