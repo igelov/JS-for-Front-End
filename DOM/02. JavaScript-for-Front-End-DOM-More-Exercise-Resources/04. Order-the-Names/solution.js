@@ -5,7 +5,7 @@ function solve() {
     let orderListElement = document.getElementsByTagName("ol")[0];
     let listItemElements = orderListElement.getElementsByTagName("li");
 
-    addButton.addEventListener("click", function () {
+    addButton.addEventListener("click", function () { //add a event listener to execute the function
         let inputName = inputTextElement.value;
 
         if (inputName) {
